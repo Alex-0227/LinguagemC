@@ -26,3 +26,16 @@ Vamos listar os itens trabalhados neste repositório:
         - Módulos do usuário (funcoes.h)
     * Ponteiro
     * Criação de arquivo
+
+#### Demonstração de uma estrutura simples de um arquivo .c
+
+```c
+#include <stdio.h>
+int main(){
+    int x = 10;
+    printf("O valor de %d\n",x);
+    
+    return 0;
+}
+```
+
