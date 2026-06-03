@@ -10,15 +10,15 @@ Estudo das principais estruturas da linguagem de programação C.
 
 Vamos listar os itens trabalhados neste repositório:
 
-    *Variáveis
-    *Comandos de entrada e saída(IO-input output):
+    * Variáveis
+    * Comandos de entrada e saída(IO-input output):
         *printf
         *scanf
-    *Desvio de fluxo Simples (if ... )
-    *Desvio de fluxo Mulplo  (if ... else ... )
-    *Estrutura de repetição While(Enquanto)
-    *Estrutura de repetição For(Para)
-    *Função (Módulos)
+    * Desvio de fluxo Simples (if ... )
+    * Desvio de fluxo Mulplo  (if ... else ... )
+    * Estrutura de repetição While(Enquanto)
+    * Estrutura de repetição For(Para)
+    * Função (Módulos)
         - Função Interna (dentro do arquivo .c)
         - Função Externa (Dentro do arquivo .h)
     *Importação de módulos
