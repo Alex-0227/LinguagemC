@@ -1,7 +1,7 @@
 # Estudo da linguagem C
 ## Aplicada a lógica de programação e algoritmos
 
-<img src= "c_logo.png" width ="300" height="300"> 
+<img src= "C_Logo2.png" width ="300" height="300"> 
 </p>
 
 ---
@@ -31,11 +31,38 @@ Vamos listar os itens trabalhados neste repositório:
 
 ```c
 #include <stdio.h>
+
 int main(){
-    int x = 10;
-    printf("O valor de %d\n",x);
-    
+    int ano;
+    printf("Digite um ano inteiro e tecle ENTER\n");
+    scanf("%d",&ano);
+
+    if( ano % 4 == 0) { 
+        printf("\nO ano %d digitado é bissexto\n",ano);
+    } else{
+        printf("\nO ano %d NÂO é bissexto\n",ano);
+    }
+
     return 0;
 }
 ```
 
+#### Demonstração de estrutura de repetição
+
+```c
+#include <stdio.h>
+int main(){
+    int i,num,res;
+    i = 1;
+    // num = 3
+    while( i <= 50){
+        // res = num * i;
+        if( i%3 == 0) {
+        printf("Este numero %d é multiplo de 3\n",i);
+
+    }
+    i++;
+}
+    return 0;
+}
+```
